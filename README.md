@@ -7,7 +7,7 @@ CandyMath was a simple idea that can combine Mathematics and computer science. I
 
 CandyMath works perfectly on GUI/LINUX and MAC OS.
 
-Run CandyMath_Windows.py for windows users..
+Run CandyMath_Windows.py for windows users.. (if you had any problem in this version please contact me)
 
 # Requirments:
 * os 
