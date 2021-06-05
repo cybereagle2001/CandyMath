@@ -32,6 +32,9 @@ Run CandyMath_Windows.py for windows users.. (if you had any problem in this ver
  
 * getpass
  
+ ## License
+
+[MIT](https://choosealicense.com/licenses/mit/) ©CandyMath by cybereagle2001
 
 # Author:
 cybereagle2001 (Oussama Ben Hadj Dahman)
