@@ -1,7 +1,7 @@
 <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=OS&message=linux&color=red"></a>
 <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=OS&message=Windows&color=red"></a>
 <a target="_blank" href="OS" title="OS"><img src="https://img.shields.io/static/v1?label=OS&message=Mac&color=red"></a>
-<a target="_blank" href="Language" title="Language"><img src="https://img.shields.io/badge/language-python3-GREEN"></a>
+<a target="_blank" href="Language" title="Language"><img src="https://img.shields.io/badge/language-python3.9-GREEN"></a>
 
 # CandyMath
 ![projet_python](https://user-images.githubusercontent.com/63789665/120900740-662db980-c62e-11eb-81a9-372f7a2e62e5.png)
