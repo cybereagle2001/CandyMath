@@ -7,6 +7,7 @@ from pylab import *
 import numpy as np
 import math as m
 import getpass
+from integral import *
 
 def encrypt(data):
     os.system("clear")
@@ -195,7 +196,69 @@ def func_tan(dec_user):
     show()
     graph(dec_user)
 
+def int_cos(dec_user):
+    a=eval(input("the first value of the interval: "))
+    b=eval(input("the second value of the interval: "))
+    simp(func_c,a,b)
+    integral(dec_user)
 
+def int_sin(dec_user):
+    a=eval(input("the first value of the interval: "))
+    b=eval(input("the second value of the interval: "))
+    simp(func_s,a,b)
+    integral(dec_user)
+
+def int_tan(dec_user):
+    a=eval(input("the first value of the interval: "))
+    b=eval(input("the second value of the interval: "))
+    simp(func_t,a,b)
+    integral(dec_user)
+    
+def int_qua(dec_user):
+    a=eval(input("the first value of the interval: "))
+    b=eval(input("the second value of the interval: "))
+    simp(func_e,a,b)
+    integral(dec_user)
+    
+def int_exp(dec_user):
+    a=eval(input("the first value of the interval: "))
+    b=eval(input("the second value of the interval: "))
+    simp(func_e,a,b)
+    integral(dec_user)
+    
+def integral(dec_user):
+    os.system("clear")
+    print("\033[0;33m")
+    print("----------------------------")
+    print("----------------------------")
+    print("----- choose function ------")
+    print("----------------------------")
+    print("----------------------------")
+    print(""" 
+               1) cos(x)
+               2) sin(x)
+               3) exp(x)
+               4) tan(x)
+               5) 1/x
+               00) go back
+    """)
+    print("\033[0;37m")
+    x=int(input("choose one option (1 - 6): "))
+    if (x == 1):
+        int_cos(dec_user)
+    elif (x == 2):
+        int_sin(dec_user)
+    elif(x == 3):
+        int_exp(dec_user)
+    elif (x == 4):
+        int_qua(dec_user)
+    elif (x == 5):
+        int_tan(dec_user)
+    elif (x == 00):
+        math(dec_user)
+    else:
+        integral(dec_user)
+    
 def graph(dec_user):
     os.system("clear")
     print("\033[0;33m")
@@ -241,7 +304,7 @@ def math(dec_user):
         ::::::::::::::::::::::::::::::::::
         ::::::::::::::::::::::::::::::::::   
     """)
-    print("        :::::::::: hello ",dec_user,"::::::::::")
+    print(":::::::::: hello ",dec_user,"::::::::::")
     print("""
         ::::::::::::::::::::::::::::::::::
         ::::::::::::::::::::::::::::::::::
@@ -249,12 +312,15 @@ def math(dec_user):
     print("chose one option(1,2): ")
     print(" 1) equation resolution")
     print(" 2) function graphs")
+    print(" 3) integral calculus")
     message= dec_user+"~$ "
     menu= int(input(message))
     if (menu == 1):
         equa(dec_user)
     elif (menu == 2):
         graph(dec_user)
+    elif (menu == 3):
+        integral(dec_user)
     else:
         math(dec_user)
 
