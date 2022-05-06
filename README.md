@@ -9,7 +9,7 @@
 
 As a Math and computer Science student at the faculty of science of Tunis. I created a Program that will summarize and use all what we learned through the semester using python language.
 
-CandyMath was a simple idea that can combine Mathematics and computer science. I used different modules like maths algorithms, file manipulation and graphs drawing in this Project. What pushed me more to create this program is it's ability to be developed into machine learning and have better chances to solve different maths equations. Not only pre-programmed ones.
+CandyMath was a simple idea that can combine Mathematics and computer science. I used different modules like maths algorithms,integral calculus,file manipulation and graphs drawing in this Project. What pushed me more to create this program is it's ability to be developed into machine learning and have better chances to solve different maths equations. Not only pre-programmed ones.
 
 # Operating System compatibale:
 
